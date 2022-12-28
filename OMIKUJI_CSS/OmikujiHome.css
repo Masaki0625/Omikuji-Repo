@@ -1,3 +1,187 @@
+@import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
+
 h1{
     text-align: center;
+    font-size: 50px;
+    color: red;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    padding: 30px;
+    background-size: cover;
+}
+
+.btn,
+a.btn,
+button.btn {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #212529;
+    border-radius: 0.5rem;
+}
+
+.btn-wrap--perspective {
+    display: inline-block;
+    -webkit-perspective: 800px;
+    perspective: 800px;
+}
+
+a.btn-3d {
+    display: block;
+    -webkit-transform: rotateX(35deg);
+    transform: rotateX(35deg);
+    color: #fff;
+    border-radius: 0.25rem 0.25rem 0 0;
+    background: #5cbcf6;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+a.btn-3d:after {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+a.btn-3db:after {
+    top: calc(100% - 1px);
+    left: 0;
+    width: 100%;
+    height: 40%;
+    -webkit-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    border-radius: 0 0 4px 4px;
+    background: #53a6d7;
+}
+
+a.btn-3db:hover {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    color: #fff;
+    border-radius: 0.25rem;
+}
+
+.fa-position-right {
+    position: absolute;
+    top: calc(50% - 0.5em);
+    right: 1rem;
+}
+
+.contents {
+    overflow: hidden;
+}
+
+#Details1 {
+    float: left;
+    padding: 20px 30px;
+    text-align: center;
+    position: relative;
+}
+
+#Details2 {
+    float: left;
+    padding: 20px 30px;
+    text-align: center;
+    position: relative;
+}
+
+#Details3 {
+    float: left;
+    padding: 20px 30px;
+    text-align: center;
+    position: relative;
+}
+
+#Details4 {
+    float: left;
+    padding: 20px 30px;
+    text-align: center;
+    position: relative;
+}
+
+#No{
+    font-size: 30px;
+    position: relative;
+}
+
+#Result{
+    font-size: 30px;
+    position: relative;
+}
+
+#Meaning{
+    font-size: 30px;
+    position: relative;
+}
+
+#Details1{
+    font-size: 20px;
+    position: relative;
+}
+
+#Details2{
+    font-size: 20px;
+    position: relative;
+}
+
+#Details3{
+    font-size: 20px;
+    position: relative;
+}
+
+#Details4{
+    font-size: 20px;
+    position: relative;
+}
+
+#OmikujiMeaning1{
+    font-size: 20px;
+    position: relative;
+}
+
+#OmikujiGendai1{
+    font-size: 20px;
+    position: relative;
+}
+
+#OmikujiMeaning2{
+    font-size: 20px;
+    position: relative;
+}
+
+#OmikujiGendai2{
+    font-size: 20px;
+    position: relative;
 }
